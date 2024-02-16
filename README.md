@@ -4,7 +4,7 @@ Você vai propor uma palavra secreta qualquer e vai dar a possibilidade para o u
 
 import os
 
-palavra_secreta = 'perfume'
+palavra_secreta = str(input('Digite uma palavra para alguém tentar adivinhar: '))
 letras_acertadas = ''
 numero_tentativas = 0
 
