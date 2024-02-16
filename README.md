@@ -14,7 +14,7 @@ while True:
     letra_digitada = input('Digite uma letra: ')
     numero_tentativas += 1
     
-    if letra_digitada == 'perfume':
+    if letra_digitada == palavra_secreta:
         print('VOCÊ GANHOU!! PARABÉNS!')
         print('A palavra era', palavra_secreta)
         print('Tentativas:', numero_tentativas)
